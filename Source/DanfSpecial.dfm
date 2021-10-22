@@ -1,9 +1,10 @@
-object FPrincipal: TFPrincipal
+object Form1: TForm1
   Left = 0
   Top = 0
   AlphaBlend = True
+  AlphaBlendValue = 100
   BorderStyle = bsNone
-  Caption = 'FPrincipal'
+  Caption = 'Form1'
   ClientHeight = 358
   ClientWidth = 666
   Color = clBtnFace

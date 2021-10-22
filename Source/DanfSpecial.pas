@@ -7,7 +7,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.jpeg, Vcl.ExtCtrls;
 
 type
-  TFPrincipal = class(TForm)
+  TForm1 = class(TForm)
     Image1: TImage;
     pnlContente: TPanel;
     Panel1: TPanel;
@@ -18,7 +18,7 @@ type
   end;
 
 var
-  FPrincipal: TFPrincipal;
+  Form1: TForm1;
 
 implementation
 

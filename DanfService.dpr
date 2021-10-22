@@ -2,13 +2,13 @@ program DanfService;
 
 uses
   Vcl.Forms,
-  DanfSpecial in 'DanfSpecial.pas' {Form1};
+  DanfSpecial in 'DanfSpecial.pas' {FPrincipal};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFPrincipal, FPrincipal);
   Application.Run;
 end.
