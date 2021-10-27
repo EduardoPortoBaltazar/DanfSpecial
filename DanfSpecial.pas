@@ -91,7 +91,7 @@ begin
   Application.MainForm.Hide;
   TrayIconDownload.BalloonHint := 'Atualizando Danf';
   TrayIconDownload.ShowBalloonHint;
-  Timer.Enabled := False;
+  Timer.Enabled := True;
 end;
 
 procedure TFPrincipal.SpeedButton1Click(Sender: TObject);
@@ -102,7 +102,6 @@ begin
    exit
  end;
 
- Timer.Enabled := True;
  atualizar;
 end;
 

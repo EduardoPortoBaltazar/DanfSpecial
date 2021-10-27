@@ -42,7 +42,15 @@ implementation
 { TDM }
 
 procedure TDM.abrirConta;
+var
+  Ldiretorio: string;
 begin
+  Ldiretorio := '';
+
+  Ldiretorio := GetCurrentDir;
+  Ldiretorio := Ldiretorio + '\danf.txt';
+
+  FDQueryConta.SQL.LoadFromFile(Ldiretorio);
   FDQueryConta.Open;
 end;
 

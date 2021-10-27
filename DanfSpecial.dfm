@@ -25,8 +25,6 @@ object FPrincipal: TFPrincipal
     Align = alClient
     Caption = 'pnlContente'
     TabOrder = 0
-    ExplicitWidth = 750
-    ExplicitHeight = 427
     object imgFundo: TImage
       Left = 1
       Top = 48
@@ -1092,8 +1090,6 @@ object FPrincipal: TFPrincipal
       ParentBackground = False
       ParentFont = False
       TabOrder = 0
-      ExplicitTop = 379
-      ExplicitWidth = 742
       object spbFechar: TSpeedButton
         Left = 405
         Top = 0
@@ -1167,7 +1163,6 @@ object FPrincipal: TFPrincipal
       ParentBackground = False
       ParentFont = False
       TabOrder = 1
-      ExplicitWidth = 742
     end
     object CardPanel: TCardPanel
       Left = 1
@@ -1178,9 +1173,6 @@ object FPrincipal: TFPrincipal
       ActiveCard = CardPrincipal
       Caption = 'CardPanel'
       TabOrder = 2
-      ExplicitLeft = 0
-      ExplicitTop = 45
-      ExplicitWidth = 789
       object CardPrincipal: TCard
         AlignWithMargins = True
         Left = 4
@@ -1197,8 +1189,6 @@ object FPrincipal: TFPrincipal
         Font.Style = []
         ParentFont = False
         TabOrder = 0
-        ExplicitWidth = 740
-        ExplicitHeight = 317
         object pnlDirBanco: TPanel
           Left = 0
           Top = 0
@@ -1216,7 +1206,6 @@ object FPrincipal: TFPrincipal
           ParentCtl3D = False
           ParentFont = False
           TabOrder = 0
-          ExplicitWidth = 740
           object Label1: TLabel
             Left = 16
             Top = 8
@@ -1228,6 +1217,7 @@ object FPrincipal: TFPrincipal
             Font.Color = clWhite
             Font.Height = -12
             Font.Name = 'Segoe UI'
+            Font.Pitch = fpFixed
             Font.Style = []
             ParentColor = False
             ParentFont = False
@@ -1274,8 +1264,6 @@ object FPrincipal: TFPrincipal
         Caption = 'Log'
         CardIndex = 1
         TabOrder = 1
-        ExplicitWidth = 746
-        ExplicitHeight = 323
         object mmLog: TMemo
           Left = 0
           Top = 0
@@ -1297,8 +1285,6 @@ object FPrincipal: TFPrincipal
             '')
           ParentFont = False
           TabOrder = 0
-          ExplicitWidth = 746
-          ExplicitHeight = 323
         end
       end
     end
